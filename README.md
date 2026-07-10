@@ -70,6 +70,22 @@ first-api-endpoint/
 └── README.md            # Project documentation
 ```
 
+## 🧪 Testing
+
+Both endpoints were verified through two independent methods to confirm correct JSON responses.
+
+### Browser
+
+| `/` | `/status` |
+|---|---|
+| ![Home endpoint](screenshots/Browser-Test-Home.png) | ![Status endpoint](screenshots/Browser-Test-Status.png) |
+
+### Curl
+
+| Request 1 | Request 2 |
+|---|---|
+| ![Curl output 1](screenshots/Curl-Test-Output-1.png) | ![Curl output 2](screenshots/Curl-Test-Output-2.png) |
+
 ## 👨‍💻 Author
 
 **Numair Iqbal**
