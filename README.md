@@ -226,7 +226,7 @@ UPDATE tasks SET done = 1 WHERE id = 1;
 ```
 After clicking **"Write Changes"** in DB Browser, refreshing `http://127.0.0.1:5000/tasks` in the browser **immediately** reflected the updated value — with no server restart required.
 
-**📸 Database opened in DB Browser for SQLite:**
+### 📸 Database Opened in DB Browser for SQLite
 
 ![DB Browser Screenshot](screenshots/db-browser-tasks.png)
 
